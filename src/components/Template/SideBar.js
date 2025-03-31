@@ -12,8 +12,9 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Ricky Liu</h2>
         <p>
+          {/* TODO: change to my site address */}
           <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
         </p>
       </header>
@@ -22,25 +23,15 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        Hi, I&apos;m Ricky. I am a software engineer who loves learning new technologies.
+        I am skilled in Android app development and am currently continuously learning
+        front-end technologies, with the aspiration to become a full-stack engineer.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? (
-            <Link to="/resume" className="button">
-              Learn More
-            </Link>
-          ) : (
-            <Link to="/about" className="button">
-              About Me
-            </Link>
-          )}
+          <Link to="/about" className="button">
+            Learn More
+          </Link>
         </li>
       </ul>
     </section>
