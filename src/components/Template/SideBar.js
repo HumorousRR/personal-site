@@ -14,8 +14,7 @@ const SideBar = () => (
       <header>
         <h2>Ricky Liu</h2>
         <p>
-          {/* TODO: change to my site address */}
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:liuruirui577@gmail.com">liuruirui577@gmail.com</a>
         </p>
       </header>
     </section>
@@ -39,7 +38,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        &copy; Michael D&apos;Angelo <Link to="/">ricky577.com</Link>.
       </p>
     </section>
   </section>
