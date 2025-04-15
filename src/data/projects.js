@@ -7,7 +7,7 @@ const data = [
     link: 'https://github.com/HumorousRR/Todo',
     date: '2025-4-14',
     desc:
-      'A to-do app that includes functions such as creating categories, adding, deleting, modifying, and reminding to-dos. ',
+      'A to-do app that includes functions such as creating categories, adding, deleting, modifying, and reminding to-dos. It also provides three sizes of desktop widgets for display.',
   },
   {
     title: 'Take Note',
