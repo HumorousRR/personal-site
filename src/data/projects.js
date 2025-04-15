@@ -1,6 +1,15 @@
 // Removed unused React import
 const data = [
   {
+    title: 'Todo App',
+    subtitle: 'a to-do android app',
+    image: '/images/articles/todo_project.png',
+    link: 'https://github.com/HumorousRR/Todo',
+    date: '2025-4-14',
+    desc:
+      'A to-do app that includes functions such as creating categories, adding, deleting, modifying, and reminding to-dos. ',
+  },
+  {
     title: 'Take Note',
     subtitle: 'a note-taking web app',
     image: '/images/projects/take_note.png',

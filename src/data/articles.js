@@ -10,13 +10,22 @@ const data = [
       + ' configuration, and updating the widget content.',
   },
   {
-    title: 'AITL cross-process communication practices',
+    title: 'AIDL cross-process communication practices',
     link: 'https://blog.csdn.net/RUIRUI14/article/details/146924875',
     image: '/images/articles/aidl.png',
     date: '2025-4-1',
     desc:
       'Through a practical application case, the method of cross-process communication through AIDL is introduced'
       + ' and the process of AIDL development is explained in detail. ',
+  },
+  {
+    title: 'To-do App Implementation',
+    link: 'https://blog.csdn.net/RUIRUI14/article/details/147233154',
+    image: '/images/articles/todo.png',
+    date: '2025-4-14',
+    desc:
+      'It is an Android to-do app written in Kotlin/Java, which includes functions such as creating categories, adding and deleting to-do items, and setting reminders. '
+      + ' It also provides three sizes of desktop widgets for display. ',
   },
   {
     title: 'Summary of the quicksort algorithm',
