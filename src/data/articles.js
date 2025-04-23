@@ -1,5 +1,14 @@
 const data = [
   {
+    title: 'Realizing LAN Communication Based on ServerSocket',
+    link: 'https://blog.csdn.net/RUIRUI14/article/details/147445902',
+    image: '/images/projects/socket.jpg',
+    date: '2025-4-23',
+    desc:
+      'An LAN Android communication project based on ServerSocket. '
+      + ' The client side(any devices as tcp client) connects to the Android side through the IP address and port number. ',
+  },
+  {
     title: 'App Widget development process',
     image: '/images/articles/app_widget.png',
     link: 'https://blog.csdn.net/RUIRUI14/article/details/146925114',

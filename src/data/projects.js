@@ -1,6 +1,15 @@
 // Removed unused React import
 const data = [
   {
+    title: 'IPConnect App',
+    subtitle: 'an LAN Android communication project',
+    image: '/images/projects/socket.jpg',
+    link: 'https://github.com/HumorousRR/IPConnect',
+    date: '2025-4-23',
+    desc:
+      'An LAN Android communication project based on ServerSocket. The client side(any devices as tcp client) connects to the Android side through the IP address and port number.',
+  },
+  {
     title: 'Todo App',
     subtitle: 'a to-do android app',
     image: '/images/articles/todo_project.png',
